@@ -1,13 +1,13 @@
-package com.example;
+package com.nospam;
 
 import net.runelite.client.RuneLite;
 import net.runelite.client.externalplugins.ExternalPluginManager;
 
-public class ExamplePluginTest
+public class NoSpamTest
 {
 	public static void main(String[] args) throws Exception
 	{
-		ExternalPluginManager.loadBuiltin(ExamplePlugin.class);
+		ExternalPluginManager.loadBuiltin(NoSpamPlugin.class);
 		RuneLite.main(args);
 	}
 }
